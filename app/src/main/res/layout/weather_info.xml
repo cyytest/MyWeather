@@ -134,14 +134,14 @@
                             android:text="@string/PM_25_value"
                             android:textColor="@color/text_color"
                             android:textSize="@dimen/PM25_value_text"
-                            android:id="@+id/textView5" />
+                            android:id="@+id/pm_data" />
                     </LinearLayout>
 
                     <ImageView
                         android:layout_width="@dimen/pollution_image_width"
                         android:layout_height="@dimen/pollution_image_height"
                         android:paddingLeft="@dimen/padding"
-                        android:id="@+id/pollution_image"
+                        android:id="@+id/pm2_5_img"
                         android:src="@drawable/biz_plugin_weather_0_50"/>
                 </LinearLayout>
 
@@ -153,7 +153,7 @@
                     android:textSize="@dimen/pollution_text"
                     android:paddingTop="@dimen/padding"
                     android:gravity="center"
-                    android:id="@+id/textView6" />
+                    android:id="@+id/pm2_5_quality" />
             </LinearLayout>
         </LinearLayout>
 
@@ -168,7 +168,7 @@
                 android:layout_width="@dimen/weather_image_width"
                 android:layout_height="@dimen/weather_image_height"
                 android:src="@drawable/biz_plugin_weather_qing"
-                android:id="@+id/imageView" />
+                android:id="@+id/weather_img" />
 
             <LinearLayout
                 android:orientation="vertical"
@@ -182,7 +182,7 @@
                     android:text="@string/today"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/today_text"
-                    android:id="@+id/textView" />
+                    android:id="@+id/week_today" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -192,7 +192,7 @@
                     android:text="@string/temperature"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/temperature_text"
-                    android:id="@+id/textView2" />
+                    android:id="@+id/temperature" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -201,7 +201,7 @@
                     android:text="@string/whether"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/whether_text"
-                    android:id="@+id/textView3" />
+                    android:id="@+id/climate" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -210,7 +210,7 @@
                     android:text="@string/wind_force"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/wind_force_text"
-                    android:id="@+id/textView7" />
+                    android:id="@+id/wind" />
             </LinearLayout>
         </LinearLayout>
 
