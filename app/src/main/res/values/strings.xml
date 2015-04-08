@@ -14,5 +14,7 @@
     <string name="temperature">-2℃~7℃</string>
     <string name="whether">多云转晴</string>
     <string name="wind_force">微风</string>
+    <string name="title_activity_select_city">选择城市</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

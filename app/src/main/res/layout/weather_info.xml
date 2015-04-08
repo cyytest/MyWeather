@@ -38,10 +38,25 @@
         <ImageView
             android:layout_width="45.0dip"
             android:layout_height="45.0dip"
+            android:visibility="invisible"
             android:id="@+id/title_update_btn"
             android:layout_alignParentRight="true"
             android:layout_gravity="center"
             android:src="@drawable/title_update" />
+        <ProgressBar
+            android:id="@+id/title_update_progress"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:visibility="visible"
+            android:layout_alignParentRight="true"
+            style="@style/title_update_progressbar_style"/>
+        <!--<style name="title_update_progressbar_style">
+            <item name="android:maxWidth">45.0dip</item>
+            <item name="android:maxHeight">45.0dip</item>
+            <item name="android:indeterminateDrawable">@anim/title_update_anim</item>
+            <item name="android:minWidth">45.0dip</item>
+            <item name="android:minHeight">45.0dip</item>
+        </style>-->
 
         <ImageView
             android:layout_width="45.0dip"
