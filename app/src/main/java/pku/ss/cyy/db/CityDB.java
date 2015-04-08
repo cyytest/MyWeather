@@ -63,7 +63,7 @@ public class CityDB {
 //        Cursor c = db.rawQuery("SELECT * from " + CITY_TABLE_NAME + " WHERE city LIKE '%"+cityName+"%' OR allpy LIKE '%"+cityName+"%' OR allfirstpy LIKE '%"+cityName+"%'",
 //                null);
         Cursor c = db.rawQuery("SELECT * from " + CITY_TABLE_NAME + " WHERE city LIKE ? OR allpy LIKE ? OR allfirstpy LIKE ?",
-                new String[] { "%"+cityName+"%", "%"+cityName+"%", "%"+cityName+"%" });
+                new String[] { "%"+cityName+"%", cityName+"%", cityName+"%" });
         while (c.moveToNext()) {
             String province = c.getString(c.getColumnIndex("province"));
             String city = c.getString(c.getColumnIndex("city"));
